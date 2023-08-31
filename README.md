@@ -14,12 +14,6 @@ This is a sample image, to show how to add images to your page. To learn more op
 -  E/19/375, Silva N.H.D.U., [email](mailto:e19375@eng.pdn.ac.lk)
 -  E/19/505, Witharana S.P.M., [email](mailto:e19505@eng.pdn.ac.lk)
 
-## Table of Contents
-1. [Problem](#Problem)
-2. [Solution](#Solution)
-3. [Technology Stack](#Technology Stack)
-4. [Links](#links)
-
 ---
 
 ## Problem
