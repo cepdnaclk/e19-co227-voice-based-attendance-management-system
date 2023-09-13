@@ -1,0 +1,25 @@
+.root {
+    -fx-background-color: white;
+}
+.textInput{
+}
+
+.textInput,
+.buttonPrimary, 
+.buttonSecondary {
+    -fx-focus-color:transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-radius: 50; 
+    -fx-outline:none;
+    -fx-border-color: black; 
+    -fx-border-width: 1;
+    -fx-background-color:transparent;
+
+}
+
+.buttonPrimary{
+
+} 
+.buttonSecondary{
+
+}
