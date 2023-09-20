@@ -28,7 +28,7 @@ This is a sample image, to show how to add images to your page. To learn more op
 ## Table of Contents
 1. [Problem](#Problem)
 2. [Solution](#Solution)
-3. [Technology Stack](#Technology Stack)
+3. [Technology Stack](#TechnologyStack)
 4. [Links](#links)
 
 ---
@@ -42,6 +42,8 @@ Calculating the attendance in the paper-based system is difficult and can be err
 ## Solution
 
 For this problem, there can be multiple solutions. Such as fingerprint, image-based attendance management systems, voice-based attendance management systems. However when considering online classes, using fingerprint is not suitable. Image-based attendance management systems can be faulty due to lighting conditions(night classes) and the absence of a good camera. So, the best solution for the problem is using a voice-based attendance management system.
+
+
 
 ## Technology Stack
 
