@@ -24,7 +24,7 @@ Calculating the attendance in the paper-based system is difficult and can be err
 ## Solution
 
 For this problem, there can be multiple solutions. Such as fingerprint, image-based attendance management systems, voice-based attendance management systems. However when considering online classes, using fingerprint is not suitable. Image-based attendance management systems can be faulty due to lighting conditions(night classes) and the absence of a good camera. So, the best solution for the problem is using a voice-based attendance management system.
-
+<br> <br>
 
 
 ## Technology Stack
@@ -67,7 +67,7 @@ For this problem, there can be multiple solutions. Such as fingerprint, image-ba
 - [ ] Week 3: Development of UX/UI, Backend  and Database Connectivity
 - [ ] Week 4: Finishing, Testing, Debugging and Quality Assurance
 - [ ] Week 5: Deployment, Launch, and User Training
-
+<br> <br>
 
 
 ## Links
