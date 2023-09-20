@@ -28,7 +28,10 @@ For this problem, there can be multiple solutions. Such as fingerprint, image-ba
 
 ## Technology Stack
 
-+ Java - Used for front-end logic, database connectivity.<br> <img src = "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" width = "100" height = "100" style = "text-align: center;">
++ Java - Used for front-end logic, database connectivity.<br>
+<p align="center">
+  <img width="460" height="300" src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg">
+</p>
 + JavaFX - Used for GUI design. ![JavaFX](https://upload.wikimedia.org/wikipedia/en/c/cc/JavaFX_Logo.png | width = 10px)
 + Python - Used for audio analyzing. ![Python](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png)
 + ~~ Google Speech To Text - Used to convert voice to text ~~
