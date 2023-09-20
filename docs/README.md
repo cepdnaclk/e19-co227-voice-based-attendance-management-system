@@ -32,18 +32,18 @@ This is a sample image, to show how to add images to your page. To learn more op
 4. [Links](#links)
 
 ---
-
+<br> <br>
 ## Problem
 
 Calculating the attendance in the paper-based system is difficult and can be erroneous. Also, Student can sign for others and fake their attendance. This will lead to bad analytics and problems in attendance. Another problem is attendance sheets can be lost. If one attendance sheet gets lost it will make a significant difference in the attendance analytics. Also, students lose focus on the lecture while passing the attendance sheet. One major problem is taking attendance in online meetings as online meetings have become a day-to-day thing in the world now. If the meeting has a huge amount of participants, taking attendance manually will take a huge amount of time and it may be erroneous.
 
-
+<br> <br>
 
 ## Solution
 
 For this problem, there can be multiple solutions. Such as fingerprint, image-based attendance management systems, voice-based attendance management systems. However when considering online classes, using fingerprint is not suitable. Image-based attendance management systems can be faulty due to lighting conditions(night classes) and the absence of a good camera. So, the best solution for the problem is using a voice-based attendance management system.
 
-
+<br> <br>
 
 ## Technology Stack
 
@@ -81,7 +81,7 @@ For this problem, there can be multiple solutions. Such as fingerprint, image-ba
 </p>
 <br>
 
-
+<br> <br>
 ## Project TimeLine
 
 - [x] Week 1: Planning and Requirements Gathering 
