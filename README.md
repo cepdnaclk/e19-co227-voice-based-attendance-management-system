@@ -1,4 +1,4 @@
-![image](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/4f661f16-31da-4ebf-aa8c-69256ba6b682)# Voice-Based Attendance Management System
+# Voice-Based Attendance Management System
 
 ---
 
@@ -40,7 +40,7 @@ For this problem, there can be multiple solutions. Such as fingerprint, image-ba
 <p align="center">
   <img width="260" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png">
 </p>
-+ ~~ Google Speech To Text - Used to convert voice to text ~~
++ ~~ Google Speech To Text ~~ ~~ Used to convert voice to text ~~ <br>
 + VOSK - Vosk is a speech recognition toolkit. Vosk can be used offline and it's free. <br>
 <p align="center">
   <img width="260" height="200" src="https://www.openhab.org/logos/voskstt.png">
