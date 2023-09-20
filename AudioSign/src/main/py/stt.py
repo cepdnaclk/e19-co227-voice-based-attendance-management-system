@@ -15,7 +15,7 @@ messages = Queue()
 recordings = Queue()
 
 
-model = Model(model_name="vosk-model-en-in-0.5") # Model
+model = Model(model_name="vosk-model-small-en-in-0.4") # Model
 recognizer = KaldiRecognizer(model, FRAME_RATE) # Initialize recognizer
 recognizer.SetWords(True)
 

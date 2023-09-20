@@ -32,7 +32,7 @@
       <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
   </rowConstraints>
    <children>
-      <TextField prefHeight="40.0" promptText="Register Number" style=";" styleClass="textInput" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+      <TextField fx:id="RegisterNumberTextField" prefHeight="40.0" promptText="Register Number" style=";" styleClass="textInput" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
          <font>
             <Font size="20.0" />
          </font>
@@ -58,7 +58,7 @@
             <Font name="Arial" size="16.0" />
          </font>
       </Text>
-      <TextField prefHeight="40.0" promptText="Name" style="-fx-border-radius: 50;" styleClass="textInput" GridPane.columnSpan="2" GridPane.rowIndex="5">
+      <TextField fx:id="NameTextField" prefHeight="40.0" promptText="Name" style="-fx-border-radius: 50;" styleClass="textInput" GridPane.columnSpan="2" GridPane.rowIndex="5">
          <font>
             <Font size="20.0" />
          </font>
@@ -74,12 +74,12 @@
             <Font name="Arial" size="16.0" />
          </font>
       </Text>
-      <RadioButton mnemonicParsing="false" text="Male" GridPane.rowIndex="8">
+      <RadioButton fx:id="maleRadioButton" mnemonicParsing="false" text="Male" GridPane.rowIndex="8">
          <font>
             <Font name="Arial" size="16.0" />
          </font>
       </RadioButton>
-      <RadioButton mnemonicParsing="false" text="Female" GridPane.columnIndex="1" GridPane.rowIndex="8">
+      <RadioButton fx:id="femaleRadioButton" mnemonicParsing="false" text="Female" GridPane.columnIndex="1" GridPane.rowIndex="8">
          <font>
             <Font name="Arial" size="16.0" />
          </font>
@@ -89,7 +89,7 @@
             <Font name="Arial Bold" size="16.0" />
          </font>
       </Button>
-      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="85.0" style="-fx-border-radius: 50; -fx-background-color: #808080;" styleClass="buttonSecondary" text="Submit" GridPane.columnIndex="2" GridPane.rowIndex="12">
+      <Button mnemonicParsing="false" onAction="#submit" prefHeight="31.0" prefWidth="85.0" style="-fx-border-radius: 50; -fx-background-color: #808080;" styleClass="buttonSecondary" text="Submit" GridPane.columnIndex="2" GridPane.rowIndex="12">
          <font>
             <Font name="Arial Bold" size="16.0" />
          </font>
