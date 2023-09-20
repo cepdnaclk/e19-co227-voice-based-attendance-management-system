@@ -13,8 +13,6 @@ This is a sample image, to show how to add images to your page. To learn more op
 -  E/19/363, Senevirathna T.N., [email](mailto:e19363@eng.pdn.ac.lk)
 -  E/19/375, Silva N.H.D.U., [email](mailto:e19375@eng.pdn.ac.lk)
 -  E/19/505, Witharana S.P.M., [email](mailto:e19505@eng.pdn.ac.lk)
-<br>
-<br>
 ---
 
 ## Problem
@@ -25,7 +23,9 @@ Calculating the attendance in the paper-based system is difficult and can be err
 
 ## Solution
 
-For this problem, there can be multiple solutions. Such as fingerprint, image-based attendance management systems, voice-based attendance management systems. However when considering online classes, using fingerprint is not suitable. Image-based attendance management systems can be faulty due to lighting conditions(night classes) and the absence of a good camera. So, the best solution for the problem is using a voice-based attendance management system. <br> <br>
+For this problem, there can be multiple solutions. Such as fingerprint, image-based attendance management systems, voice-based attendance management systems. However when considering online classes, using fingerprint is not suitable. Image-based attendance management systems can be faulty due to lighting conditions(night classes) and the absence of a good camera. So, the best solution for the problem is using a voice-based attendance management system.
+
+
 
 ## Technology Stack
 
@@ -67,6 +67,7 @@ For this problem, there can be multiple solutions. Such as fingerprint, image-ba
 - [ ] Week 3: Development of UX/UI, Backend  and Database Connectivity
 - [ ] Week 4: Finishing, Testing, Debugging and Quality Assurance
 - [ ] Week 5: Deployment, Launch, and User Training
+
 
 
 ## Links
