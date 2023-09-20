@@ -22,7 +22,9 @@ This is a sample image, to show how to add images to your page. To learn more op
 -  E/19/363, Senevirathna T.N., [email](mailto:e19363@eng.pdn.ac.lk)
 -  E/19/375, Silva N.H.D.U., [email](mailto:e19375@eng.pdn.ac.lk)
 -  E/19/505, Witharana S.P.M., [email](mailto:e19505@eng.pdn.ac.lk)
+  
 ---
+
 ## Table of Contents
 1. [Problem](#Problem)
 2. [Solution](#Solution)
@@ -44,7 +46,7 @@ For this problem, there can be multiple solutions. Such as fingerprint, image-ba
 <br> <br>
 
 ## Technology Stack
-
+<br>
 + Java : Used for front-end logic, and database connectivity.<br><br>
 <p align="center">
   <img height="200" src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg">
@@ -82,11 +84,11 @@ For this problem, there can be multiple solutions. Such as fingerprint, image-ba
 <br> <br>
 ## Project TimeLine
 
-- [x] Week 1: Planning and Requirements Gathering 
-- [x] Week 2: Design and coming up with a solution
-- [ ] Week 3: Development of UX/UI, Backend  and Database Connectivity
-- [ ] Week 4: Finishing, Testing, Debugging and Quality Assurance
-- [ ] Week 5: Deployment, Launch, and User Training
+- [x]  Week 1: Planning and Requirements Gathering 
+- [x]  Week 2: Design and coming up with a solution
+- [ ]  Week 3: Development of UX/UI, Backend  and Database Connectivity
+- [ ]  Week 4: Finishing, Testing, Debugging and Quality Assurance
+- [ ]  Week 5: Deployment, Launch, and User Training
 <br> <br>
 
 
