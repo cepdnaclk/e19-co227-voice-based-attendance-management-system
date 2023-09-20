@@ -32,26 +32,31 @@ For this problem, there can be multiple solutions. Such as fingerprint, image-ba
 <p align="center">
   <img height="200" src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg">
 </p>
-
+<br>
+<br>
 + JavaFX - Used for GUI design.<br>
 <p align="center">
-  <img height="200" src="https://upload.wikimedia.org/wikipedia/en/c/cc/JavaFX_Logo.png">
+  <img width = "250" height="200" src="https://upload.wikimedia.org/wikipedia/en/c/cc/JavaFX_Logo.png">
 </p>
-
+<br>
+<br>
 + Python - Used for audio analyzing.<br>
 <p align="center">
   <img height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png">
 </p>
-
+<br>
+<br>
 + VOSK - Vosk is a speech recognition toolkit. Vosk can be used offline and it's free. <br>
 <p align="center">
   <img height="200" src="https://www.openhab.org/logos/voskstt.png">
 </p>
+<br>
+<br>
 + SQLite - Database management system. <br>
 <p align="center">
   <img height="200" src="https://download.logo.wine/logo/SQLite/SQLite-Logo.wine.png">
 </p>
-
+<br>
 ## Project TimeLine
 
 - [x] Week 1: Planning and Requirements Gathering 
