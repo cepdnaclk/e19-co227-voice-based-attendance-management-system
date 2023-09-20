@@ -15,7 +15,6 @@ This is a sample image, to show how to add images to your page. To learn more op
 -  E/19/505, Witharana S.P.M., [email](mailto:e19505@eng.pdn.ac.lk)
 <br>
 <br>
-<br>
 ---
 
 ## Problem
@@ -30,35 +29,37 @@ For this problem, there can be multiple solutions. Such as fingerprint, image-ba
 
 ## Technology Stack
 
-+ Java - Used for front-end logic, and database connectivity.<br><br>
+- Java - Used for front-end logic, and database connectivity.<br><br>
 <p align="center">
   <img height="200" src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg">
 </p>
 <br>
 <br>
-+ JavaFX - Used for GUI design.<br><br>
+- JavaFX - Used for GUI design.<br><br>
 <p align="center">
   <img width = "250" height="200" src="https://upload.wikimedia.org/wikipedia/en/c/cc/JavaFX_Logo.png">
 </p>
 <br>
 <br>
-+ Python - Used for audio analyzing.<br><br>
+- Python - Used for audio analyzing.<br><br>
 <p align="center">
   <img height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png">
 </p>
 <br>
 <br>
-+ VOSK - Vosk is a speech recognition toolkit. Vosk can be used offline and it's free. <br><br>
+- VOSK - Vosk is a speech recognition toolkit. Vosk can be used offline and it's free. <br><br>
 <p align="center">
   <img height="200" src="https://www.openhab.org/logos/voskstt.png">
 </p>
 <br>
 <br>
-+ SQLite - Database management system. <br><br>
+- SQLite - Database management system. <br><br>
 <p align="center">
   <img height="200" src="https://download.logo.wine/logo/SQLite/SQLite-Logo.wine.png">
 </p>
 <br>
+
+
 ## Project TimeLine
 
 - [x] Week 1: Planning and Requirements Gathering 
