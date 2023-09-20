@@ -15,7 +15,7 @@ messages = Queue()
 recordings = Queue()
 
 
-model = Model(model_name="vosk-model-small-en-in-0.4") # Model
+model = Model(model_name="vosk-model-en-in-0.5") # Model
 recognizer = KaldiRecognizer(model, FRAME_RATE) # Initialize recognizer
 recognizer.SetWords(True)
 
@@ -43,7 +43,7 @@ def recordAudio(chunk = 1024):
                     channels=CHANNELS, 
                     rate=FRAME_RATE, 
                     input= True,
-                    input_device_index=2,
+                    input_device_index=1,
                     frames_per_buffer=chunk) # Connect to mic and record. Chunk - How often we read from our mic
     
     frames = []
