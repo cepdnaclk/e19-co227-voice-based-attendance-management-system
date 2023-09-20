@@ -11,7 +11,6 @@ title:
 
 # Voice-Based Attendance Management System
 
----
 
 <!-- 
 This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
