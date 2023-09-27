@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<GridPane alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefWidth="600.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.audiosign.PrimaryController">
+<GridPane alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.audiosign.PrimaryController">
   <columnConstraints>
       <ColumnConstraints hgrow="SOMETIMES" maxWidth="331.20001220703125" minWidth="10.0" prefWidth="34.39997329711912" />
       <ColumnConstraints hgrow="SOMETIMES" maxWidth="396.00003280639646" minWidth="10.0" prefWidth="293.2" />
@@ -63,7 +63,7 @@
             <Font size="20.0" />
          </font>
       </Text>
-      <Button mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="85.0" style="-fx-border-radius: 50; -fx-background-color: #808080;" styleClass="buttonSecondary" text="Back" GridPane.columnIndex="1" GridPane.rowIndex="4">
+      <Button mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="85.0" style="-fx-border-radius: 50; -fx-background-color: #000031;" styleClass="buttonSecondary" text="Back" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4">
          <font>
             <Font name="Arial Bold" size="16.0" />
          </font>
