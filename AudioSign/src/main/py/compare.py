@@ -10,7 +10,7 @@ CHANNELS = 1
 RATE = 44100
 CHUNK = 1024
 RECORD_SECONDS = 5
-OUTPUT_FILE = "test1.wav"
+OUTPUT_FILE = "ref.wav"
 
 # Initialize PyAudio
 audio = pyaudio.PyAudio()

@@ -10,101 +10,97 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<GridPane minHeight="-Infinity" minWidth="-Infinity" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" stylesheets="file:/C:/Users/dasud/Desktop/CO227/e19-co227-voice-based-attendance-management-system/AudioSign/src/main/res/css/styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.audiosign.SecondaryController">
-  <columnConstraints>
-    <ColumnConstraints hgrow="SOMETIMES" maxWidth="527.199951171875" minWidth="10.0" prefWidth="192.60001220703126" />
-    <ColumnConstraints hgrow="SOMETIMES" maxWidth="436.00000000000006" minWidth="10.0" prefWidth="274.1999877929687" />
-      <ColumnConstraints hgrow="SOMETIMES" maxWidth="349.59998779296876" minWidth="0.0" prefWidth="103.5999877929687" />
-  </columnConstraints>
-  <rowConstraints>
-    <RowConstraints minHeight="10.0" prefHeight="70.0" valignment="CENTER" vgrow="NEVER" />
-    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
-    <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
-      <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="NEVER" />
-      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
-      <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
-      <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="NEVER" />
-      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
-      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
-      <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
-      <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
-      <RowConstraints minHeight="10.0" prefHeight="5.0" vgrow="NEVER" />
-      <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
-  </rowConstraints>
-   <children>
-      <TextField fx:id="RegisterNumberTextField" prefHeight="40.0" promptText="Register Number" style=";" styleClass="textInput" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
-         <font>
-            <Font size="20.0" />
-         </font>
-         <padding>
-            <Insets left="15.0" />
-         </padding>
-      </TextField>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Register a New Member " wrappingWidth="353.152893781662" GridPane.columnSpan="2" GridPane.halignment="CENTER">
-         <font>
-            <Font name="Arial" size="30.0" />
-         </font>
-         <GridPane.margin>
-            <Insets bottom="20.0" />
-         </GridPane.margin>
-      </Text>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Member ID" GridPane.rowIndex="1">
-         <font>
-            <Font name="Arial" size="16.0" />
-         </font>
-      </Text>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Full Name" GridPane.rowIndex="4">
-         <font>
-            <Font name="Arial" size="16.0" />
-         </font>
-      </Text>
-      <TextField fx:id="NameTextField" prefHeight="40.0" promptText="Name" style="-fx-border-radius: 50;" styleClass="textInput" GridPane.columnSpan="2" GridPane.rowIndex="5">
-         <font>
-            <Font size="20.0" />
-         </font>
-         <GridPane.margin>
-            <Insets />
-         </GridPane.margin>
-         <padding>
-            <Insets left="15.0" />
-         </padding>
-      </TextField>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" GridPane.rowIndex="7">
-         <font>
-            <Font name="Arial" size="16.0" />
-         </font>
-      </Text>
-      <RadioButton fx:id="maleRadioButton" mnemonicParsing="false" text="Male" GridPane.rowIndex="8">
-         <font>
-            <Font name="Arial" size="16.0" />
-         </font>
-      </RadioButton>
-      <RadioButton fx:id="femaleRadioButton" mnemonicParsing="false" text="Female" GridPane.columnIndex="1" GridPane.rowIndex="8">
-         <font>
-            <Font name="Arial" size="16.0" />
-         </font>
-      </RadioButton>
-      <Button layoutX="274.0" layoutY="468.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="85.0" style="-fx-border-radius: 50; -fx-background-color: #000031;" styleClass="buttonSecondary" text="Back" textFill="WHITE" GridPane.rowIndex="12">
-         <font>
-            <Font name="Arial Bold" size="16.0" />
-         </font>
-      </Button>
-<<<<<<< HEAD
-      <Button mnemonicParsing="false" onAction="#submit" prefHeight="31.0" prefWidth="85.0" style="-fx-border-radius: 50; -fx-background-color: #808080;" styleClass="buttonSecondary" text="Submit" GridPane.columnIndex="2" GridPane.rowIndex="12">
-=======
-      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="85.0" style="-fx-border-radius: 50; -fx-background-color: #000031;" styleClass="buttonSecondary" text="Submit" textFill="#fff8f8" GridPane.columnIndex="2" GridPane.rowIndex="12">
->>>>>>> 46d9d1c2cadc833fd6b05cee7da4ef4332abd96b
-         <font>
-            <Font name="Arial Bold" size="16.0" />
-         </font>
-      </Button>
-      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="175.0" style="-fx-border-radius: 50; -fx-background-color: #000031;" styleClass="buttonSecondary" text="Add Voice Samples" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="10">
-         <font>
-            <Font name="Arial Bold" size="16.0" />
-         </font>
-      </Button>
-   </children>
-   <padding>
-      <Insets bottom="20.0" left="20.0" right="10.0" top="20.0" />
-   </padding>
+<GridPane minHeight="-Infinity" minWidth="-Infinity" prefWidth="600.0" style="-fx-background-color: #C0C0C0;" stylesheets="file:/C:/Users/dasud/Desktop/CO227/e19-co227-voice-based-attendance-management-system/AudioSign/src/main/res/css/styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.audiosign.SecondaryController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="527.199951171875" minWidth="10.0" prefWidth="192.60001220703126" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="436.00000000000006" minWidth="10.0" prefWidth="274.1999877929687" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="349.59998779296876" minWidth="0.0" prefWidth="103.5999877929687" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="70.0" valignment="CENTER" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="5.0" vgrow="NEVER" />
+        <RowConstraints minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
+    </rowConstraints>
+    <children>
+        <TextField fx:id="RegisterNumberTextField" prefHeight="40.0" promptText="Register Number" style=";" styleClass="textInput" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            <font>
+                <Font size="20.0" />
+            </font>
+            <padding>
+                <Insets left="15.0" />
+            </padding>
+        </TextField>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Register a New User" wrappingWidth="287.152893781662" GridPane.columnSpan="2" GridPane.halignment="CENTER">
+            <font>
+                <Font name="Arial" size="30.0" />
+            </font>
+            <GridPane.margin>
+                <Insets bottom="20.0" />
+            </GridPane.margin>
+        </Text>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="User ID" GridPane.rowIndex="1">
+            <font>
+                <Font name="Arial" size="16.0" />
+            </font>
+        </Text>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Full Name" GridPane.rowIndex="4">
+            <font>
+                <Font name="Arial" size="16.0" />
+            </font>
+        </Text>
+        <TextField fx:id="NameTextField" prefHeight="40.0" promptText="Name" style="-fx-border-radius: 50;" styleClass="textInput" GridPane.columnSpan="2" GridPane.rowIndex="5">
+            <font>
+                <Font size="20.0" />
+            </font>
+            <GridPane.margin>
+                <Insets />
+            </GridPane.margin>
+            <padding>
+                <Insets left="15.0" />
+            </padding>
+        </TextField>
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" GridPane.rowIndex="7">
+            <font>
+                <Font name="Arial" size="16.0" />
+            </font>
+        </Text>
+        <RadioButton fx:id="maleRadioButton" mnemonicParsing="false" text="Male" GridPane.rowIndex="8">
+            <font>
+                <Font name="Arial" size="16.0" />
+            </font>
+        </RadioButton>
+        <RadioButton fx:id="femaleRadioButton" mnemonicParsing="false" text="Female" GridPane.columnIndex="1" GridPane.rowIndex="8">
+            <font>
+                <Font name="Arial" size="16.0" />
+            </font>
+        </RadioButton>
+        <Button layoutX="274.0" layoutY="468.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="85.0" style="-fx-border-radius: 50; -fx-background-color: #808080;" styleClass="buttonSecondary" text="Back" GridPane.rowIndex="12">
+            <font>
+                <Font name="Arial Bold" size="16.0" />
+            </font>
+        </Button>
+        <Button mnemonicParsing="false" onAction="#submit" prefHeight="31.0" prefWidth="85.0" style="-fx-border-radius: 50; -fx-background-color: #808080;" styleClass="buttonSecondary" text="Submit" GridPane.columnIndex="2" GridPane.rowIndex="12">
+            <font>
+                <Font name="Arial Bold" size="16.0" />
+            </font>
+        </Button>
+        <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="175.0" style="-fx-border-radius: 50; -fx-background-color: #808080;" styleClass="buttonSecondary" text="Add Voice Samples" GridPane.columnIndex="1" GridPane.rowIndex="10">
+            <font>
+                <Font name="Arial Bold" size="16.0" />
+            </font>
+        </Button>
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="10.0" top="20.0" />
+    </padding>
 </GridPane>
