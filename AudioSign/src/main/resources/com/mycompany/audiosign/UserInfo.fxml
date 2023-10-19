@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f6cec8;" styleClass="mainContainer" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.audiosign.UserInfoController">
+   <children>
+      <AnchorPane minHeight="600.0" minWidth="800.0" style="-fx-background-radius: 37; -fx-background-color: #252644; -fx-border-radius: 20; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);" styleClass="navContainer" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <VBox layoutX="6.0" layoutY="9.0" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <HBox alignment="CENTER" maxHeight="100.0" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/logo.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox fx:id="markAttendanceBox" alignment="CENTER_LEFT" maxWidth="230.0" minWidth="230.0" onMouseClicked="#markAttendance" prefHeight="100.0" prefWidth="230.0" style="-fx-border-radius: 20; -fx-border-color: #d7d7d7; -fx-border-width: 2;">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/verify.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" right="20.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Text fill="#d7d7d7" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark Attendance" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Arial" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="5.0" top="80.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </HBox>
+                  <HBox fx:id="registerBox" alignment="CENTER_LEFT" layoutX="15.0" layoutY="140.0" maxWidth="230.0" minWidth="230.0" onMouseClicked="#userRegister" prefHeight="100.0" prefWidth="230.0" style="-fx-border-radius: 20; -fx-border-color: #d7d7d7; -fx-border-width: 2;">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/check-mark.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" right="20.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Text fill="#d7d7d7" strokeType="OUTSIDE" strokeWidth="0.0" text="Register" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Arial" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="5.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </HBox>
+                  <HBox fx:id="loginBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="214.0" maxWidth="230.0" minWidth="230.0" onMouseClicked="#userLogin" prefHeight="100.0" prefWidth="230.0" style="-fx-border-radius: 20; -fx-border-color: #d7d7d7; -fx-border-width: 2;">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/loginIcon.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" right="20.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Text fill="#d7d7d7" strokeType="OUTSIDE" strokeWidth="0.0" text="LogIn" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Arial" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </HBox>
+               </children>
+            </VBox>
+            <AnchorPane layoutX="144.0" layoutY="7.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-effect: innershadow(three-pass-box, rgba(37,38,68,0.5), 10, 0, 2,0);" styleClass="contentContainer" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="255.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-radius: 30;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <GridPane alignment="CENTER" maxWidth="400.0" minWidth="400.0" prefWidth="400.0" vgap="8.0">
+                          <columnConstraints>
+                            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="70.0" prefWidth="70.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="30.0" prefWidth="30.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="220.0" minWidth="220.0" prefWidth="220.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="150.0" prefHeight="150.0" valignment="TOP" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <VBox.margin>
+                              <Insets left="50.0" right="50.0" top="30.0" />
+                           </VBox.margin>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="User ID">
+                                 <font>
+                                    <Font name="Arial" size="17.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text=":" GridPane.columnIndex="1">
+                                 <font>
+                                    <Font name="Arial Bold" size="17.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="Arial" size="17.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text=":" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="Arial Bold" size="17.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="Arial" size="17.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text=":" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="Arial Bold" size="17.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Email" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="Arial" size="17.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text=":" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="Arial Bold" size="17.0" />
+                                 </font>
+                              </Text>
+                              <TextField fx:id="idTextField" maxHeight="35.0" minHeight="35.0" prefHeight="35.0" style="-fx-border-color: #252644; -fx-focus-color: transparent; -fx-text-box-border: transparent; -fx-faint-focus-color: transparent; -fx-background-color: -fx-control-inner-background; -fx-background-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-padding: 2 5 2 5; -fx-font-size: 16; -fx-font-family: arial;" GridPane.columnIndex="2">
+                                 <padding>
+                                    <Insets right="10.0" top="10.0" />
+                                 </padding>
+                              </TextField>
+                              <TextField fx:id="nameTextField" maxHeight="35.0" minHeight="35.0" prefHeight="35.0" style="-fx-border-color: #252644; -fx-focus-color: transparent; -fx-text-box-border: transparent; -fx-faint-focus-color: transparent; -fx-background-color: -fx-control-inner-background; -fx-background-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-padding: 2 5 2 5; -fx-font-size: 16; -fx-font-family: arial;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                 <padding>
+                                    <Insets right="10.0" top="10.0" />
+                                 </padding>
+                              </TextField>
+                              <TextField fx:id="genderTextField" maxHeight="35.0" minHeight="35.0" prefHeight="35.0" style="-fx-border-color: #252644; -fx-focus-color: transparent; -fx-text-box-border: transparent; -fx-faint-focus-color: transparent; -fx-background-color: -fx-control-inner-background; -fx-background-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-padding: 2 5 2 5; -fx-font-size: 16; -fx-font-family: arial;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                 <padding>
+                                    <Insets right="10.0" top="10.0" />
+                                 </padding>
+                              </TextField>
+                              <TextField fx:id="emailTextField" maxHeight="35.0" minHeight="35.0" prefHeight="35.0" style="-fx-border-color: #252644; -fx-focus-color: transparent; -fx-text-box-border: transparent; -fx-faint-focus-color: transparent; -fx-background-color: -fx-control-inner-background; -fx-background-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-padding: 2 5 2 5; -fx-font-size: 16; -fx-font-family: arial;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                 <padding>
+                                    <Insets right="10.0" top="10.0" />
+                                 </padding>
+                              </TextField>
+                              <TextField fx:id="attendanceTextField" maxHeight="35.0" minHeight="35.0" prefHeight="35.0" style="-fx-border-color: #252644; -fx-focus-color: transparent; -fx-text-box-border: transparent; -fx-faint-focus-color: transparent; -fx-background-color: -fx-control-inner-background; -fx-background-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-padding: 2 5 2 5; -fx-font-size: 16; -fx-font-family: arial;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                                 <padding>
+                                    <Insets right="10.0" top="10.0" />
+                                 </padding>
+                              </TextField>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attendance:" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="Arial" size="17.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text=":" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="Arial Bold" size="17.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Present Days" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="Arial" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets top="20.0" />
+                                 </GridPane.margin>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text=":" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="Arial Bold" size="17.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets top="20.0" />
+                                 </GridPane.margin>
+                              </Text>
+                              <ListView fx:id="listView" prefHeight="160.0" prefWidth="160.0" style="-fx-border-color: #252644; -fx-background-radius: 10; -fx-border-radius: 10; -fx-focus-color: transparent; -fx-faint-focus-color: transparent; -fx-text-box-border: transparent; -fx-background-insets: 0; -fx-padding: 2 5 2 5; -fx-font-size: 16; -fx-font-family: arial;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                           </children>
+                        </GridPane>
+                        <HBox alignment="CENTER" maxHeight="50.0" minHeight="50.0" prefHeight="50.0" prefWidth="200.0" spacing="300.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#backBtn" style="-fx-background-color: #252644; -fx-border-radius: 10; -fx-background-radius: 10; -fx-border-color: #252644; -fx-border-width: 2; -fx-font-size: 17; -fx-font-family: arial; -fx-padding: 8 20; -fx-text-fill: #fff;" text="Back">
+                                 <font>
+                                    <Font name="Arial" size="16.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="30.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
