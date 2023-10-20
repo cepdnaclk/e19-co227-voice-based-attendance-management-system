@@ -69,29 +69,40 @@ For this problem, there can be multiple solutions. Such as fingerprint, image-ba
 
 ![Registration](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/7c2d71a6-1fc3-4452-a1f7-67c6c59fa586)
 
-When they successfully register, They will get a screen like this saying registration success.
++ When they successfully register, They will get a screen like this saying registration success.
+
 ![RegistrationSuccessful](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/75bd82e6-792d-4b85-80a7-1dd033fd6a52)
 
 + Registration only need to be done one time only. Then the user can mark their attendace. User can press the record button in this screen and start recroding.
+  
 ![MarkAttendanceHome](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/10182477-3215-4004-abbe-9a9fd537b25f)
+
 ![RecordingScreen](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/359e7da9-9981-492d-a16f-e0e61b4a193d)
 
 + If the system couldn't transcribe the sound due to some noise or hardware error, then the user can enter their registration number. But the voice recording will be used to comparison. So there should not be a big noise.
+
 ![TranscribingFail](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/6da7b463-ca77-49c6-8b5b-6132035a4d6e)
 
 + If the recording is transcribed successfully, then this screen will be prompted.
+
 ![RecordingSuccess](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/c5c9977d-101b-4525-aab3-da0b920bb488)
 
 + Finally, the user will get a confirmation screen with their User ID and name.
+
 ![RecordingInfo](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/1dc4381c-8b8f-48c1-93ca-888769d0c275)
 
 + Finally, the voice will be comapred and It will be displayed if the voice matches or not.
+
 ![VoiceMatch](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/ea967ca1-8385-488e-b750-18ba61c509ae)
+
 ![VoiceDontMatch](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/e674b553-5cd4-496e-bb79-8ecd3fbd8e24)
 
 + That is the funtionality of the application for the user. Then the admins can log in to the system using this screen and Enter the information they need and get users attendance information.
+  
 ![Login](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/3f4816d1-5b21-4997-a76d-3db1626769d2)
+
 ![AdminPanel](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/e3d06212-d30b-45e6-bdd0-0b5cbfa23e83)
+
 ![UserInfo](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/5c6ccddc-3219-4848-a827-ee1ceba4715a)
 
 
