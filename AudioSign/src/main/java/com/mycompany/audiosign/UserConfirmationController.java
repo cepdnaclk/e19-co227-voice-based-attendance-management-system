@@ -15,6 +15,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 public class UserConfirmationController {
     private SceneChanger sceneChanger = new SceneChanger(); // Scene changer is a class that is used to change the scene
@@ -62,7 +63,7 @@ public class UserConfirmationController {
             }
         });
         t1.start();
-        //TimeUnit.MILLISECONDS.sleep(700); // Wait 0.7 second for python modules to loadup
+        TimeUnit.MILLISECONDS.sleep(700); // Wait 0.7 second for python modules to loadup
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         loader = sceneChanger.changeScene("RecordingScreen",stage); // Display the recording screen
         //System.out.println(loader);
@@ -78,7 +79,7 @@ public class UserConfirmationController {
     private void compareVoiceBtn(ActionEvent event){
         try {
             String workingDir = System.getProperty("user.dir"); // Working directory path
-            String pathToPy = workingDir + "/src/main/py/Normalizing.py"; // Absolute path for the file
+            String pathToPy = workingDir + "/src/main/py/ChromaFeatures.py"; // Absolute path for the file
             // Change the voice comparison model as needed
 
             /* 1) ChromaFeatures.py - Uses Chroma Features, MFFCs (The Mel-frequency cepstral coefficients), VAD (Voice Activity Detection to identify speech segments) ,

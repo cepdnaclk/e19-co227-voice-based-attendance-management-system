@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f6cec8;" styleClass="mainContainer" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.audiosign.UserLoginController">
+   <children>
+      <AnchorPane minHeight="600.0" minWidth="800.0" style="-fx-background-radius: 37; -fx-background-color: #252644; -fx-border-radius: 20; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);" styleClass="navContainer" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <VBox layoutX="6.0" layoutY="9.0" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <HBox alignment="CENTER" maxHeight="100.0" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/logo.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+                     </padding>
+                  </HBox>
+                  <HBox fx:id="markAttendanceBox" alignment="CENTER_LEFT" maxWidth="230.0" minWidth="230.0" onMouseClicked="#markAttendance" prefHeight="100.0" prefWidth="230.0" style="-fx-border-radius: 20; -fx-border-color: #d7d7d7; -fx-border-width: 2;">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/verify.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" right="20.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Text fill="#d7d7d7" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark Attendance" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Arial" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="5.0" top="80.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </HBox>
+                  <HBox fx:id="registerBox" alignment="CENTER_LEFT" layoutX="15.0" layoutY="140.0" maxWidth="230.0" minWidth="230.0" onMouseClicked="#userRegister" prefHeight="100.0" prefWidth="230.0" style="-fx-border-radius: 20; -fx-border-color: #d7d7d7; -fx-border-width: 2;">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/check-mark.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" right="20.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Text fill="#d7d7d7" strokeType="OUTSIDE" strokeWidth="0.0" text="Register" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Arial" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="5.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </HBox>
+                  <HBox fx:id="loginBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="214.0" maxWidth="230.0" minWidth="230.0" onMouseClicked="#userLogin" prefHeight="100.0" prefWidth="230.0" style="-fx-border-radius: 20; -fx-border-color: #d7d7d7; -fx-border-width: 2;">
+                     <children>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/loginIcon.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" right="20.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Text fill="#d7d7d7" strokeType="OUTSIDE" strokeWidth="0.0" text="LogIn" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font name="Arial" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="5.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </HBox>
+               </children>
+            </VBox>
+            <AnchorPane layoutX="144.0" layoutY="7.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-effect: innershadow(three-pass-box, rgba(37,38,68,0.5), 10, 0, 2,0);" styleClass="contentContainer" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="255.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-radius: 30;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Login">
+                                 <font>
+                                    <Font name="Arial" size="30.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox alignment="CENTER" style="-fx-border-color: #252644; -fx-border-width: 2; -fx-border-radius: 20;">
+                           <children>
+                              <AnchorPane maxHeight="150.0" maxWidth="1.7976931348623157E308" minHeight="150.0" prefHeight="150.0" style="-fx-border-width: 0 2 0 0; -fx-border-color: #252644; -fx-border-radius: 0;">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+                                             <image>
+                                                <Image url="@img/loginImage.png" />
+                                             </image>
+                                             <viewport>
+                                                <Rectangle2D />
+                                             </viewport>
+                                             <HBox.margin>
+                                                <Insets bottom="10.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <padding>
+                                    <Insets right="10.0" />
+                                 </padding>
+                              </AnchorPane>
+                              <GridPane alignment="CENTER" maxWidth="1.7976931348623157E308">
+                                <columnConstraints>
+                                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="50.0" minWidth="50.0" prefWidth="50.0" />
+                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="10.0" minWidth="10.0" prefWidth="10.0" />
+                                  <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="230.0" minWidth="230.0" prefWidth="230.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                    <RowConstraints fillHeight="false" maxHeight="5.0" minHeight="5.0" prefHeight="5.0" valignment="CENTER" />
+                                  <RowConstraints fillHeight="false" maxHeight="50.0" minHeight="50.0" prefHeight="50.0" valignment="CENTER" />
+                                  <RowConstraints fillHeight="false" maxHeight="50.0" minHeight="50.0" prefHeight="50.0" valignment="CENTER" />
+                                </rowConstraints>
+                                 <children>
+                                    <TextField fx:id="userName" maxHeight="35.0" minHeight="35.0" prefHeight="35.0" promptText="User ID" style="-fx-border-color: #252644; -fx-focus-color: transparent; -fx-text-box-border: transparent; -fx-faint-focus-color: transparent; -fx-background-color: -fx-control-inner-background; -fx-background-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-font-size: 16; -fx-font-family: arial;" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                                       <GridPane.margin>
+                                          <Insets />
+                                       </GridPane.margin>
+                                       <padding>
+                                          <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                       </padding>
+                                    </TextField>
+                                    <PasswordField fx:id="passwordField" maxHeight="35.0" minHeight="35.0" prefHeight="35.0" promptText="Password" style="-fx-border-color: #252644; -fx-focus-color: transparent; -fx-text-box-border: transparent; -fx-faint-focus-color: transparent; -fx-background-color: -fx-control-inner-background; -fx-background-insets: 0; -fx-background-radius: 10; -fx-border-radius: 10; -fx-padding: 2 5 2 5; -fx-font-size: 16;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Arial" size="16.0" />
+                                       </font>
+                                    </PasswordField>
+                                    <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+                                       <image>
+                                          <Image url="@img/userID.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+                                       <image>
+                                          <Image url="@img/padlock.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="recheckText" fill="#e41818" strokeType="OUTSIDE" strokeWidth="0.0" style="visibility: false;" text="*Re-check Your User ID And Password" GridPane.columnSpan="3">
+                                       <GridPane.margin>
+                                          <Insets bottom="5.0" left="50.0" />
+                                       </GridPane.margin>
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                                 <HBox.margin>
+                                    <Insets left="30.0" right="40.0" />
+                                 </HBox.margin>
+                              </GridPane>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="35.0" right="35.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="40.0" left="20.0" top="40.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER" maxHeight="50.0" minHeight="50.0" prefHeight="50.0" prefWidth="200.0" spacing="300.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#backBtn" style="-fx-background-color: transparent; -fx-border-radius: 10; -fx-background-radius: 10; -fx-border-color: #252644; -fx-border-width: 2; -fx-font-size: 17; -fx-font-family: arial; -fx-padding: 8 20; -fx-text-fill: #252644;" text="Back">
+                                 <font>
+                                    <Font name="Arial" size="16.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#loginBtn" style="-fx-background-color: #252644; -fx-border-radius: 10; -fx-background-radius: 10; -fx-border-color: #252644; -fx-border-width: 2; -fx-font-size: 17; -fx-font-family: arial; -fx-padding: 8 20; -fx-text-fill: #fff;" text="Login">
+                                 <font>
+                                    <Font name="Arial" size="16.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="50.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
