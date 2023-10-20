@@ -30,7 +30,7 @@
          </font></Text>
       <ImageView fitHeight="203.0" fitWidth="519.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
          <image>
-            <Image url="file:/C:/Users/dasud/Desktop/CO227/e19-co227-voice-based-attendance-management-system/AudioSign/src/main/res/img/sound.gif" />
+            <Image url="file:/C:/Users/LENOVO/Desktop/spm/spm-co227-voice-based-attendance-management-system/AudioSign/src/main/res/img/sound.gif" />
          </image></ImageView>
        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Attendance Marked" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4">
            <font>
