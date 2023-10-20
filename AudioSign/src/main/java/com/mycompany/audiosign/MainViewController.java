@@ -5,8 +5,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
-//import java.util.concurrent.TimeUnit;
-//import java.util.concurrent.TimeUnit;
+
+import java.util.concurrent.TimeUnit;
 
 public class MainViewController {
 
@@ -50,7 +50,7 @@ public class MainViewController {
             }
         });
         t1.start();
-        //TimeUnit.MILLISECONDS.sleep(700); // Wait 0.7 second for python modules to loadup
+        TimeUnit.MILLISECONDS.sleep(700); // Wait 0.7 second for python modules to loadup
         Stage stage = (Stage) recordBox.getScene().getWindow();
         loader = sceneChanger.changeScene("RecordingScreen",stage); // Display the recording screen
         //System.out.println(loader);

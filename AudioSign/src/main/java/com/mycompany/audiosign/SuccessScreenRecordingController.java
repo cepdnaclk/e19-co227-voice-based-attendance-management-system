@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
-//import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeUnit;
 
 public class SuccessScreenRecordingController {
     private SceneChanger sceneChanger = new SceneChanger(); // Scene changer is a class that is used to change the scene
@@ -56,7 +56,7 @@ public class SuccessScreenRecordingController {
             }
         });
         t1.start();
-        //TimeUnit.MILLISECONDS.sleep(700); // Wait 0.7 second for python modules to loadup
+        TimeUnit.MILLISECONDS.sleep(700); // Wait 0.7 second for python modules to loadup
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         loader = sceneChanger.changeScene("RecordingScreen",stage); // Display the recording screen
         //System.out.println(loader);

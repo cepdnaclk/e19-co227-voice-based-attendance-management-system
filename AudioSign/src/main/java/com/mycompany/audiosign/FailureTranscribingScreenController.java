@@ -13,7 +13,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-//import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeUnit;
 
 public class FailureTranscribingScreenController {
     private SceneChanger sceneChanger = new SceneChanger(); // Scene changer is a class that is used to change the scene 
@@ -61,7 +61,7 @@ public class FailureTranscribingScreenController {
             }
         });
         t1.start();
-        //TimeUnit.MILLISECONDS.sleep(700); // Wait 0.7 second for python modules to loadup
+        TimeUnit.MILLISECONDS.sleep(700); // Wait 0.7 second for python modules to loadup
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         loader = sceneChanger.changeScene("RecordingScreen",stage); // Display the recording screen 
         //System.out.println(loader);

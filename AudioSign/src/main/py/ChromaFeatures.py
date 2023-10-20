@@ -59,7 +59,7 @@ def compareAudioSamples():
     distance, path = fastdtw(refFeatures_normalized.T, testFeatures_normalized.T, dist=euclidean)
 
     # Set a threshold (adjust as needed)
-    threshold = 250
+    threshold = 1000
 
     # Compare the DTW distance to the threshold
     normalized_distance, _ = fastdtw(refFeatures_normalized.T, testFeatures_normalized.T, dist=euclidean)

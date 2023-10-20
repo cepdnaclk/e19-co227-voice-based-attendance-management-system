@@ -1,4 +1,18 @@
-C:\Users\dasud\Desktop\CO227\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\module-info.java
-C:\Users\dasud\Desktop\CO227\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\SecondaryController.java
-C:\Users\dasud\Desktop\CO227\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\App.java
-C:\Users\dasud\Desktop\CO227\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\PrimaryController.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\DatabaseConnection.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\UserRegisterController.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\module-info.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\Student.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\SceneChanger.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\UserLoginController.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\FailureTranscribingScreenController.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\RecordAndTranscribe.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\SecondaryController.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\SuccessRegisterController.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\MainViewController.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\VoiceTranscribe.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\SuccessScreenRecordingController.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\HelloController.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\UserConfirmationController.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\App.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\PrimaryController.java
+C:\Users\dasud\Desktop\CO227 Project\e19-co227-voice-based-attendance-management-system\AudioSign\src\main\java\com\mycompany\audiosign\RecordingController.java
