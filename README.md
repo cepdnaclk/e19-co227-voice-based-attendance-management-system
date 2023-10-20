@@ -105,6 +105,8 @@ For this problem, there can be multiple solutions. Such as fingerprint, image-ba
 
 ![UserInfo](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/5c6ccddc-3219-4848-a827-ee1ceba4715a)
 
+![UserInfoDisplay](https://github.com/cepdnaclk/e19-co227-voice-based-attendance-management-system/assets/115541700/fa771808-ca0e-4b4c-b6b1-3c30c9ddd571)
+
 
 ## Project TimeLine
 
